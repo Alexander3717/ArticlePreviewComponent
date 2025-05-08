@@ -1,0 +1,59 @@
+@use 'functions' as *;
+
+// colors
+$colors-white: #ffffff;
+$colors-grey-200: #ecf2f8;
+$colors-grey-400: #9daec2;
+$colors-grey-500: #6e8098;
+$colors-grey-900: #48556a;
+
+// spacings
+$spacing-0: 0rem;
+$spacing-200: 1rem;
+$spacing-300: 1.5rem;
+$spacing-400: 2rem;
+$spacing-500: 2.5rem;
+$spacing-600: 3rem;
+$spacing-700: 3.5rem;
+$spacing-800: 4rem;
+$spacing-1300: 6.5rem;
+$spacing-2000: 10rem;
+
+// text presets
+@mixin text-preset-1 {
+    color: var(--color-slate-900, #133041);
+    font-family: "Manrope";
+    font-size: rem(20px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: rem(0.25px); 
+}
+@mixin text-preset-2 {
+    color: var(--color-slate-900, #133041);
+    font-family: "Manrope";
+    font-size: rem(13px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: rem(0.016px);
+}
+@mixin text-preset-2-bold {
+    color: var(--color-slate-900, #133041);
+    font-family: "Manrope";
+    font-size: rem(13px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: rem(0.016px);
+}
+@mixin text-preset-3 {
+    color: var(--color-slate-900, #133041);
+    font-family: "Manrope";
+    font-size: rem(13px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: rem(3.25px);
+    text-transform: uppercase;
+}
