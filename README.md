@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/)
+- Solution URL: [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-made-with-flexbox-and-vanilla-javascript-K2ViEHIXvx)
 - Live Site URL: [View live site](https://alexander3717.github.io/ArticlePreviewComponent/)
 
 ## My process
@@ -75,7 +75,7 @@ I wanted to implement the following logic, which I thought was common for UX:
 - Allow the user to close the toast either by clicking the button again or anywhere else on the page
 - Use subtle fade transitions for all visual changes
 
-Getting this working I learned the very basics of handling events (for achieving the above I tracked click, mouseenter, mouseleave and transitionend) and also got some practice with DOM manipulation using methods like querySelector, classlist.add, setAtrribute etc.
+Getting this working I learned the very basics of handling events (for achieving the above I tracked `click`, `mouseenter`, `mouseleave` and `transitionend`) and also got some practice with DOM manipulation using methods like `querySelector`, `classlist.add`, `setAtrribute` etc.
 
 ## Author
 
